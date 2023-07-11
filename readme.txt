@@ -1,6 +1,7 @@
 
-This files contains the code used in the paper "Unveiling Venice's hotel competition networks from dynamic pricing digital markets" 
-by Mirko Armillotta, Konstantinos Fokianos and Andrea Guizzardi.
+These files contain data and code used in the paper "Unveiling Venice's hotel competition networks from dynamic pricing digital markets" by Mirko Armillotta, Konstantinos Fokianos and Andrea Guizzardi.
+
+The data are available only for research purposes.
 
 First load the R workspace called "data.Rdata".
 
