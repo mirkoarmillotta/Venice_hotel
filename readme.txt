@@ -1,0 +1,17 @@
+These files include the code used in the paper "Unveiling Venice's hotel competition networks from dynamic pricing digital markets" by Mirko Armillotta, Konstantinos Fokianos and Andrea Guizzardi.
+
+First load the data in the R workspace called "data.Rdata".
+Disclaimer: Data are available only for academic purposes and can be obtained from the authors after asking for permission.
+
+
+
+Then, to use the code you just need to run the main script file called "hotel.R".
+
+
+The following R scripts are loaded:
+
+source("network estimation.R")            # Advance booking Network Autoregressive model (NAR) estimation (Algorithm 1)
+source("adja_dist.R")                     # Compute adjacency matrix from given probabilities
+source("ols.nar.R")                       # Compute OLS of advance booking NAR model
+source("genNAR.R")                        # Generate values from advance booking NAR model
+source("data format.R")                   # Format the data for the analysis
